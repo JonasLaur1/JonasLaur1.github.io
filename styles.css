@@ -1,0 +1,37 @@
+body {
+    padding-top: 65px;
+    margin: 0;
+    background: rgb(29, 53, 87);
+    background: linear-gradient(225deg, rgba(29, 53, 87, 1) 0%, rgba(69, 123, 157, 1) 37%, rgba(168, 218, 220, 1) 78%);
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #1d3557;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f1faee;
+    padding: 1em;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
