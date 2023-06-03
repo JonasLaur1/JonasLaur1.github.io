@@ -6,32 +6,35 @@ body {
 }
 
 nav {
-    position: fixed;
     top: 0px;
+    position: fixed;
     width: 100%;
-    background-color: #1d3557;
-    float: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 1.2em;
+    height: 60px;
 }
 
 nav ul {
     display: flex;
-    justify-content: right;
+    gap: 2em;
+    max-width: 70%;
 }
 
 nav li {
+    flex: auto;
     list-style: none;
-    display: inline;
-    padding: 0.5em;
-    text-align: center;
 }
 
 nav a {
     text-decoration: none;
-    color: #f1faee;
-    padding: 1em;
-
+    color: black;
 }
 
 nav a:hover {
+    color: blue;
+    cursor: pointer;
     text-decoration: underline;
 }
