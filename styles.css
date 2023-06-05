@@ -1,8 +1,7 @@
 body {
     padding-top: 65px;
     margin: 0;
-    background: rgb(29, 53, 87);
-    background: linear-gradient(225deg, rgba(29, 53, 87, 1) 0%, rgba(69, 123, 157, 1) 37%, rgba(168, 218, 220, 1) 78%);
+    background-color: #60a9ff;
 }
 
 nav {
@@ -37,4 +36,19 @@ nav a:hover {
     color: blue;
     cursor: pointer;
     text-decoration: underline;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section{
+  background-color: #FFFFFF;
+  margin: 15px 00;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 15px;
+  padding: 10px 15px;
 }
