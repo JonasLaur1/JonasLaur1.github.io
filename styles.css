@@ -48,7 +48,7 @@ main{
   background-color: #FFFFFF;
   margin: 15px 00;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   border-radius: 15px;
   padding: 10px 15px;
 }
@@ -72,6 +72,22 @@ main{
 .language .caption{
   text-align: center;
   margin-top: 10px;
+}
+
+.project{
+  padding: 4px 10px;
+  background-color: #f5fafa;
+  border: 1px solid  #60a9ff;
+  border-radius: 15px;
+}
+
+.used-languages{
+  display: flex;
+  justify-content: space-evenly;
+}
+.project img{
+    width: 100%;
+    max-width: 70px;
 }
 
 #contact-me img{
