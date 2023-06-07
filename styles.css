@@ -22,6 +22,10 @@ nav ul {
     max-width: 70%;
 }
 
+h2{
+  text-align:center;
+}
+
 nav li {
     flex: auto;
     list-style: none;
